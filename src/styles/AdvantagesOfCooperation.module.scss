@@ -1,0 +1,95 @@
+$card-bg: #D6E3EA;
+$primary-color: #327580;
+
+.container {
+  width: 100%;
+  height: 63vh;
+
+  &__headerBox {
+    padding: 20px 0;
+    text-align: center;
+
+    &__title {
+      font-weight: 500;
+      font-size: 30px;
+      text-transform: uppercase;
+      font-family: Montserrat, sans-serif;
+    }
+  }
+
+  &__body {
+    width: 100%;
+    height: 467px;
+
+    &__bg {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-between;
+
+      &__carCover {
+        width: 700px;
+        height: 387px;
+
+        &__bg {
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          background-repeat: no-repeat;
+
+          &__car {
+            margin-top: 120px;
+          }
+        }
+      }
+
+      &__cards {
+        padding: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        &__card {
+          background-color: $card-bg;
+          border-radius: 5px;
+          width: 18rem;
+          height: 10rem;
+
+          &__headerBox {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px;
+            padding: 10px 0;
+            border-bottom: 1px solid $primary-color;
+
+            &__btn {
+              width: 181px;
+              height: 35px;
+              border-radius: 3px;
+              background-color: $primary-color;
+              color: $card-bg;
+              outline: none;
+              font-size: 16px;
+              font-weight: 700;
+            }
+          }
+
+          &__desc{
+            color: $primary-color;
+            padding:0 20px;
+
+            &__title{
+              font-weight: 500;
+              font-size: 16px;
+              font-family: Montserrat, sans-serif;
+            }
+          }
+        }
+      }
+    }
+  }
+}

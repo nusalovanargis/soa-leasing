@@ -1,0 +1,28 @@
+.partners {
+  width: 100vw;
+  height: 20vh;
+  text-align: center;
+
+  &__header{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 34.38px;
+  }
+
+  &__logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 0 100px;
+  }
+
+  &__logo{
+    max-width: 130px;
+    height: auto;
+    cursor: pointer;
+  }
+}

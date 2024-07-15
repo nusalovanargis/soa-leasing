@@ -1,0 +1,46 @@
+$primary-color: #327580;
+$light-color: #fff;
+$text-color: #22242A;
+
+.leasingOffer{
+  width: 34rem;
+  height: 18rem;
+  position: relative;
+  top: 100px;
+  left: 100px;
+
+  &__header{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64px;
+    font-family: Montserrat, sans-serif;
+  }
+
+  &__percent-title {
+    color: $primary-color;
+    font-size: 40px;
+    line-height: 62px;
+    font-family: Montserrat, sans-serif;
+  }
+
+  &__description {
+    font-weight: 500;
+    font-size: 22px;
+    color: $text-color;
+    line-height: 28px;
+    font-family: Montserrat, sans-serif;
+  }
+
+  &__btn {
+    width: 181px;
+    height: 52px;
+    border-radius: 3px;
+    border: 1px solid $light-color;
+    color: $primary-color;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: Montserrat, sans-serif;
+  }
+}

@@ -1,0 +1,15 @@
+$input-border: #035762;
+
+.input {
+  height: 40px;
+  outline: none;
+  border: 1px solid $input-border;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
