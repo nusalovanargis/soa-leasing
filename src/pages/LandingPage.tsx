@@ -3,7 +3,6 @@ import AdvantagesOfCooperation from "./AdvantagesOfCooperation";
 import CarModels from "./CarModels";
 import About from "./About";
 import Contact from "./Contact";
-import LeasingCalculator from "./LeasingCalculator.tsx";
 import Partners from "./Partners.tsx";
 import Footer from "./Footer.tsx";
 
@@ -15,7 +14,6 @@ const LandingPage = () => {
             <CarModels />
             <About />
             <Contact />
-            <LeasingCalculator />
             <Partners />
             <Footer/>
         </>

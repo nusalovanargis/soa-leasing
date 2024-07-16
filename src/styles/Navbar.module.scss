@@ -1,4 +1,5 @@
 $dark-color: black;
+$anchor-color: #035762;
 $font-size: 16px;
 $container-padding: 10px 100px;
 $logo-width: 177px;
@@ -42,5 +43,9 @@ $margin-left: 2px;
         &-icon {
             margin-left: $margin-left;
         }
+    }
+
+    &__list-group-anchor:hover{
+        color: $anchor-color;
     }
 }

@@ -43,4 +43,10 @@ $text-color: #22242A;
     margin-top: 20px;
     font-family: Montserrat, sans-serif;
   }
+
+  &__btn:hover {
+    border: 1px solid $primary-color;
+    background-color: $primary-color;
+    color: $light-color;
+  }
 }

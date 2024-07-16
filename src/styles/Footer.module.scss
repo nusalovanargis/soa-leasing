@@ -1,3 +1,5 @@
+$primary-color: #035762;
+
 .container {
   width: 100vw;
   height: 319px;
@@ -42,6 +44,32 @@
           font-family: Montserrat, sans-serif;
           font-weight: 400;
           font-size: 16px;
+          margin-bottom: 10px;
+        }
+
+        &__box{
+          display: flex;
+        }
+
+        &__input{
+          width: 60%;
+          height: 50px;
+          border-radius: 0;
+        }
+
+        &__btn{
+          background-color: white;
+          color: $primary-color;
+          font-size: 17px;
+          font-family: Montserrat, sans-serif;
+          width: 150px;
+          height: 50px;
+        }
+
+        &__btn:hover {
+          border: 1px solid white;
+          background-color: $primary-color;
+          color: white;
         }
       }
     }

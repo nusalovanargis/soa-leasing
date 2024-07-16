@@ -6,6 +6,8 @@ import Logo from '../assets/images/soa-light.png'
 import TextField from "../components/ui/TextField.tsx";
 
 const Footer = () => {
+    const currentYear: number = new Date().getFullYear();
+
     return (
         <Box className={styles.container} >
             <BackgroundImage className={styles['container__bg']} src={BG as string}>
@@ -22,12 +24,14 @@ const Footer = () => {
                         <p className={styles['container__bg__description__contact__title']}>
                             Ən son paylaşım və əməliyyatlarımızdan daha tez məlumat ala bilərsiniz.
                         </p>
-                        <TextField className={styles['contact__bg__contact__card__TextField']} placeholder='Email' />
-                        <Button>Göndərin</Button>
+                        <Box className={styles['container__bg__description__contact__box']}>
+                            <TextField className={styles['container__bg__description__contact__input']} placeholder='Email' />
+                            <Button className={styles['container__bg__description__contact__btn']}>Göndərin</Button>
+                        </Box>
                     </Box>
                 </Box>
                 <Box className={styles['container__bg__privacy']}>
-                    <p>© Copyright - © 2024. Bütün hüquqlar qorunur</p>
+                    <p>© Copyright - © {currentYear}. Bütün hüquqlar qorunur</p>
                 </Box>
             </BackgroundImage>
         </Box>

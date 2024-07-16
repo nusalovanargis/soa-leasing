@@ -75,6 +75,13 @@ $primary-color: #327580;
               outline: none;
               font-size: 16px;
               font-weight: 700;
+              font-family: Montserrat, sans-serif;
+            }
+
+            &__btn:hover {
+              border: 1px solid white;
+              background-color: white;
+              color: $primary-color;
             }
           }
 
