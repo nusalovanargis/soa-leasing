@@ -5,6 +5,11 @@ import styles from '../styles/Footer.module.scss';
 import Logo from '../assets/images/soa-light.png'
 import TextField from "../components/ui/TextField.tsx";
 
+/**
+ * Footer page
+ * @returns {JSX.Element} The rendered Footer component.
+ */
+
 const Footer = () => {
     const currentYear: number = new Date().getFullYear();
 

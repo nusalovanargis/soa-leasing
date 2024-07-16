@@ -4,6 +4,11 @@ import CarModelOne from '../assets/images/model-one.png';
 import CarModelTwo from '../assets/images/model-two.png';
 import CarModelThree from '../assets/images/model-three.png';
 
+/**
+ * CarModels page
+ * @returns {JSX.Element} The rendered CarModels component.
+ */
+
 const CarModels = () => {
     return (
         <Box className={styles.carModels}>

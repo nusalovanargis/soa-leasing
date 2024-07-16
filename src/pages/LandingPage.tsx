@@ -6,6 +6,11 @@ import Contact from "./Contact";
 import Partners from "./Partners.tsx";
 import Footer from "./Footer.tsx";
 
+/**
+ * LandingPage page
+ * @returns {JSX.Element} The rendered LandingPage component.
+ */
+
 const LandingPage = () => {
     return (
         <>

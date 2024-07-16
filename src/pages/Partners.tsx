@@ -8,6 +8,12 @@ import Square from '../assets/images/square-logo.png';
 import AliPay from '../assets/images/alipay.png';
 import Ethereum from '../assets/images/ethereum.png';
 
+/**
+ * Partners page
+ * @returns {JSX.Element} The rendered Partners component.
+ */
+
+
 const Partners: React.FC = () => {
     const partners: string[] = [VISA, MoneyGram, Paypal, Square, AliPay, Ethereum];
 

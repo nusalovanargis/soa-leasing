@@ -7,6 +7,11 @@ import Group from '../assets/icons/group.png'
 import Business from '../assets/icons/business.png'
 import Divide from '../assets/icons/divide.png'
 
+/**
+ * AdvantagesOfCooperation page
+ * @returns {JSX.Element} The rendered AdvantagesOfCooperation component.
+ */
+
 const AdvantagesOfCooperation = () => {
   return (
     <Box className={styles.container}>

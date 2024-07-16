@@ -4,6 +4,11 @@ import BG from '../assets/images/about-bg.png'
 import Car from '../assets/images/about-car.png'
 import Logo from '../assets/images/soa-logo.png'
 
+/**
+ * About page
+ * @returns {JSX.Element} The rendered About component.
+ */
+
 const About = () => {
     return (
         <Box className={styles.about}>
